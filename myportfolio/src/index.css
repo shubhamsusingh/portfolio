@@ -24,21 +24,13 @@ body{
 
 .logo{
   position: relative;
-  font-size: 15px;
+  font-size: 25px;
   color:aqua;
   background-color: rgb(64, 103, 105);
   text-decoration: none;
-  /* font-size: 600; */
+  font-size: 600;
   box-shadow: 0 0 20px aqua;
 }
- /* .logo{
-  color:aqua;
-  text-decoration: none;
-  box-shadow: 0 0 20px aqua;
-  height: 4rem;
-  
- } */
- 
 .navbar a{
   display: inline-block;
   font-size: 25px;
