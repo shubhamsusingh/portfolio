@@ -252,8 +252,8 @@ body{
 .contact-form{
   input{
       display: block;
-      padding: 5px 2px;
-      margin: 5px 5px;
+      /* padding: 5px 2px; */
+      /* margin: 5px 5px; */
   }
 
   
@@ -309,16 +309,16 @@ body{
   position: relative;
 
 }
-.contact-form form input, textarea{
+.contact-form form input, .textarea{
   border: none;
   outline: none;
-  width: 70%;
-  padding: 18px;
+  /* width: 70%; */
+  /* padding: 18px; */
   background: rgb(53, 40, 40);
   color: black;
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
   border-radius: 0.5rem;
 
 
