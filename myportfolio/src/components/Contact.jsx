@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faInstagram, faWhatsapp, faGoogle } from '@fortawesome/free-brands-svg-icons';
-import { Row, Col, Form, Input, Button } from 'antd';
+import { Row, Col, Form, Input, Button, Card } from 'antd';
 const { TextArea } = Input;
 
 const Contact = () => {
@@ -57,37 +57,39 @@ const Contact = () => {
                                         <textarea id="textarea" name="textarea" cols="40" rows="10" placeholder="Enter your Name"></textarea>
                                         <input type="submit" value="submit" className="send" />
                                     </form> */}
-                                    <Form>
-                                        <Row>
-                                            <Col span={12}>
-                                                <Form.Item>
-                                                    <Input placeholder='Enter Name' />
-                                                </Form.Item>
-                                            </Col>
-                                            <Col span={10} offset={2}>
-                                                <Form.Item>
-                                                    <Input type='email' placeholder='Enter email' />
-                                                </Form.Item>
-                                            </Col>
-                                            <Col span={24}>
-                                                <Form.Item>
-                                                    <Input placeholder='Subject' />
-                                                </Form.Item>
-                                            </Col>
-                                            <Col span={24}>
-                                                <Form.Item>
-                                                    <TextArea rows={4} id="textarea" className='textarea' placeholder='Write Your Intrest' />
-                                                </Form.Item>
-                                            </Col>
-                                            <Col span={16} offset={8}>
-                                                <Form.Item>
-                                                    <Button type="primary" style={{ width: '10vw' }}>Submit</Button>
-                                                </Form.Item>
-                                            </Col>
+                                    <Card className='formcard'>
+                                        <Form>
+                                            <Row>
+                                                <Col span={12}>
+                                                    <Form.Item>
+                                                        <Input placeholder='Enter Name' />
+                                                    </Form.Item>
+                                                </Col>
+                                                <Col span={10} offset={2}>
+                                                    <Form.Item>
+                                                        <Input type='email' placeholder='Enter email' />
+                                                    </Form.Item>
+                                                </Col>
+                                                <Col span={24}>
+                                                    <Form.Item>
+                                                        <Input placeholder='Subject' />
+                                                    </Form.Item>
+                                                </Col>
+                                                <Col span={24}>
+                                                    <Form.Item>
+                                                        <TextArea rows={4} id="textarea" className='textarea' placeholder='Write Your Intrest' />
+                                                    </Form.Item>
+                                                </Col>
+                                                <Col span={16} offset={8}>
+                                                    <Form.Item>
+                                                        <Button type="primary" style={{ width: '10vw' }}>Submit</Button>
+                                                    </Form.Item>
+                                                </Col>
 
-                                        </Row>
+                                            </Row>
 
-                                    </Form>
+                                        </Form>
+                                    </Card>
                                 </div>
                             </Col>
                         </Row>
