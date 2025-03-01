@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Col, Row } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare, faInstagram, faWhatsapp, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookSquare, faInstagram, faWhatsapp, faGoogle, faGithub } from '@fortawesome/free-brands-svg-icons';
 import myImg from '../assets/img/i.png';
 import Typed from 'typed.js'; // Import Typed.js
 
@@ -31,16 +31,19 @@ const Home = () => {
                             <span id="element"></span>
                             <div className="home-sci">
                                 <a href="https://www.facebook.com/profile.php?id=100064764007563">
-                                    <FontAwesomeIcon icon={faFacebookSquare} />
+                                    <FontAwesomeIcon icon={faFacebookSquare} style={{ fontSize: '1.5rem', marginLeft: '0.5vw' }} />
                                 </a>
                                 <a href="https://web.whatsapp.com/">
-                                    <FontAwesomeIcon icon={faWhatsapp} />
+                                    <FontAwesomeIcon icon={faWhatsapp} style={{ fontSize: '1.5rem', marginLeft: '0.5vw' }} />
                                 </a>
                                 <a href="https://mail.google.com/mail/u/0/?hl=en_GB#inbox">
-                                    <FontAwesomeIcon icon={faGoogle} />
+                                    <FontAwesomeIcon icon={faGoogle} style={{ fontSize: '1.5rem', marginLeft: '0.5vw' }} />
                                 </a>
                                 <a href="https://www.instagram.com/">
-                                    <FontAwesomeIcon icon={faInstagram} />
+                                    <FontAwesomeIcon icon={faInstagram} style={{ fontSize: '1.5rem', marginLeft: '0.5vw' }} />
+                                </a>
+                                <a href="https://github.com/shubhamsusingh">
+                                    <FontAwesomeIcon icon={faGithub} style={{ fontSize: '1.5rem', marginLeft: '0.5vw' }} />
                                 </a>
                             </div>
                         </div>
