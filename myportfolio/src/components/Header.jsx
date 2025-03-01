@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <>
             <header className="header">
-                <a href="#" className="logo" style={{ height: '3.5rem' }}>Portfolio</a>
+                <a href="#" className="logo" style={{ textAlign: 'center', alignItems: 'center' }}>Portfolio</a>
 
                 <nav className="navbar">
                     <a href="#home">Home</a>

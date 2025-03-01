@@ -118,7 +118,7 @@ body{
 }
 .home-sci{
   width: 30vw;
-  height: 5vh;
+  height: 6vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,6 +131,7 @@ body{
   a{
       color: #0ef;
   }
+  margin-top: 5vh;
 }
 .home-sci a :hover{
   
@@ -314,7 +315,7 @@ body{
   outline: none;
   /* width: 70%; */
   /* padding: 18px; */
-  background: rgb(53, 40, 40);
+  background: rgb(163, 169, 170);
   color: black;
   font-size: 1rem;
   font-weight: 600;
@@ -339,7 +340,7 @@ footer{
   
 }
 .formcard{
-  background-color: rgb(68, 66, 65);
+  background-color: rgb(204, 201, 191);
 }
   
 
